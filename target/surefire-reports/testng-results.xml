@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="eBankingv2" duration-ms="107812" started-at="2021-03-24T02:08:35Z" finished-at="2021-03-24T02:10:23Z">
+    <groups>
+    </groups>
+    <test name="BankingApp Test" duration-ms="107812" started-at="2021-03-24T02:08:35Z" finished-at="2021-03-24T02:10:23Z">
+      <class name="com.eBankingv2.testCases.TC_003_AddNewCust_Test">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.eBankingv2.testCases.TC_003_AddNewCust_Test@5afa04c]" name="setup" is-config="true" duration-ms="15428" started-at="2021-03-24T02:09:54Z" finished-at="2021-03-24T02:10:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addNewCust()[pri:0, instance:com.eBankingv2.testCases.TC_003_AddNewCust_Test@5afa04c]" name="addNewCust" duration-ms="13252" started-at="2021-03-24T02:10:09Z" finished-at="2021-03-24T02:10:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCust -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.eBankingv2.testCases.TC_003_AddNewCust_Test@5afa04c]" name="tearDown" is-config="true" duration-ms="681" started-at="2021-03-24T02:10:23Z" finished-at="2021-03-24T02:10:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.eBankingv2.testCases.TC_003_AddNewCust_Test -->
+      <class name="com.eBankingv2.testCases.TC_001_LoginTest_Test">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.eBankingv2.testCases.TC_001_LoginTest_Test@2344fc66]" name="setup" is-config="true" duration-ms="19720" started-at="2021-03-24T02:08:36Z" finished-at="2021-03-24T02:08:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.eBankingv2.testCases.TC_001_LoginTest_Test@2344fc66]" name="LoginTest" duration-ms="2099" started-at="2021-03-24T02:08:55Z" finished-at="2021-03-24T02:08:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.eBankingv2.testCases.TC_001_LoginTest_Test@2344fc66]" name="tearDown" is-config="true" duration-ms="734" started-at="2021-03-24T02:08:58Z" finished-at="2021-03-24T02:08:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.eBankingv2.testCases.TC_001_LoginTest_Test -->
+      <class name="com.eBankingv2.testCases.TC_002_LoginDDT_Test">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.eBankingv2.testCases.TC_002_LoginDDT_Test@458ad742]" name="setup" is-config="true" duration-ms="15341" started-at="2021-03-24T02:08:58Z" finished-at="2021-03-24T02:09:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.eBankingv2.testCases.TC_002_LoginDDT_Test@458ad742]" name="LoginDDT" duration-ms="13111" started-at="2021-03-24T02:09:15Z" data-provider="LoginData" finished-at="2021-03-24T02:09:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr312477]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hyjupYs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginDDT -->
+        <test-method status="PASS" signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.eBankingv2.testCases.TC_002_LoginDDT_Test@458ad742]" name="LoginDDT" duration-ms="12074" started-at="2021-03-24T02:09:28Z" data-provider="LoginData" finished-at="2021-03-24T02:09:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr312477]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hyjupYs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginDDT -->
+        <test-method status="PASS" signature="LoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.eBankingv2.testCases.TC_002_LoginDDT_Test@458ad742]" name="LoginDDT" duration-ms="12665" started-at="2021-03-24T02:09:41Z" data-provider="LoginData" finished-at="2021-03-24T02:09:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr312477]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hyjupYs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginDDT -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.eBankingv2.testCases.TC_002_LoginDDT_Test@458ad742]" name="tearDown" is-config="true" duration-ms="667" started-at="2021-03-24T02:09:53Z" finished-at="2021-03-24T02:09:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.eBankingv2.testCases.TC_002_LoginDDT_Test -->
+    </test> <!-- BankingApp Test -->
+  </suite> <!-- eBankingv2 -->
+</testng-results>

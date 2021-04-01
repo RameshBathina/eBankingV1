@@ -1,0 +1,9 @@
+com\eBankingv2\utilities\ReadConfig.class
+com\eBankingv2\utilities\Reporting.class
+com\eBankingv2\testCases\BaseClass.class
+com\eBankingv2\testCases\TC_001_LoginTest_Test.class
+com\eBankingv2\utilities\XLUtils.class
+com\eBankingv2\testCases\TC_003_AddNewCust_Test.class
+com\eBankingv2\pageObjects\AddCustPage.class
+com\eBankingv2\testCases\TC_002_LoginDDT_Test.class
+com\eBankingv2\pageObjects\LoginPage.class

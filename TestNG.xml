@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="eBankingv2">
+<!-- The listener(s) class is required for reporting and it has to be mentioned before the actual tests -->
+	<listeners>
+		<listener class-name="com.eBankingv2.utilities.Reporting"/>
+	</listeners>
+
+	<test name="BankingApp Test">		
+		<parameter name="browser" value="chrome"/>
+			<classes>
+				<class name="com.eBankingv2.testCases.TC_001_LoginTest_Test"/>
+				<class name="com.eBankingv2.testCases.TC_002_LoginDDT_Test"/> 
+				<class name="com.eBankingv2.testCases.TC_003_AddNewCust_Test"/>				
+			</classes>
+	</test>
+</suite>
